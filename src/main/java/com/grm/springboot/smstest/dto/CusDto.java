@@ -5,8 +5,8 @@ import java.io.Serializable;
 
 public class CusDto implements Serializable{
 
-    public static void test(){
-        System.out.println("qwer");
+    public static void test(String name){
+        System.out.println("qwer"+name);
     }
     private Long cid;
 
