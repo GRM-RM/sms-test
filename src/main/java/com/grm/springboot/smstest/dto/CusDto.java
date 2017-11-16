@@ -4,6 +4,10 @@ import java.io.Serializable;
 
 
 public class CusDto implements Serializable{
+
+    public static void test(){
+        System.out.println("qwer");
+    }
     private Long cid;
 
     private String token;
