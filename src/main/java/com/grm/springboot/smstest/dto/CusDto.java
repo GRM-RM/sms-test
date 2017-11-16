@@ -2,11 +2,7 @@ package com.grm.springboot.smstest.dto;
 
 import java.io.Serializable;
 
-/**
- * A unique of the lion
- *
- * @author grm
- */
+
 public class CusDto implements Serializable{
     private Long cid;
 
